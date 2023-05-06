@@ -11,6 +11,7 @@
 .inner {
     height: 100%;
     width: var(--default-layout-width);
+    padding: 0 var(--default-layout-horizontal-spacer);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,10 +91,40 @@
     }
 }
 
+.action {
+    display: flex;
+    align-items: center;
+}
+
 .more-btn {
     font-size: 2rem;
     margin-left: 12px;
     padding: 4px 8px;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.upload-btn {
+    color: #161823;
+    margin-right: 6px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.action-btn {
+    color: #161823;
+    padding: 4px 12px;
+    background: transparent;
+    font-size: 2.2rem;
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    margin-left: 12px;
+    object-fit: cover;
+    border-radius: 999px;
     cursor: pointer;
 }

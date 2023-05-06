@@ -6,6 +6,11 @@
         width: 100%;
         display: flex;
         margin-left: 0;
+        line-height: 1.8rem;
+
+        &.separate {
+            border-top: 1px solid rgba(22, 24, 35, 0.12);
+        }
 
         span {
             color: var(--text-color);
@@ -20,4 +25,26 @@
 
 .menu-popper {
     padding: 8px 0;
+}
+
+//Header menu
+
+.header {
+    position: relative;
+    margin-top: -8px;
+    height: 50px;
+}
+
+.back-btn {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

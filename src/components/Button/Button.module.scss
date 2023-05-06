@@ -1,6 +1,7 @@
 .wrapper {
     font-size: 1.6rem;
     font-weight: 700;
+    font-family: 'Lato', sans-serif;
     min-width: 100px;
     padding: 9px 16px;
     border-radius: 4px;
@@ -49,6 +50,17 @@
     &:hover {
         border-color: currentColor;
         background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+
+.rectangle {
+    display: flex;
+    border-color: rgba(22, 24, 35, 0.12);
+    color: var(--text-color);
+
+    &:hover {
+        border-color: rgba(22, 24, 35, 0.22);
+        background-color: rgba(22, 24, 35, 0.02);
     }
 }
 
